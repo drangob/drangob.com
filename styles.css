@@ -1,0 +1,119 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+html{
+	overflow-y: scroll;
+}
+body{
+	text-align: center;
+	font: 100%/1.3 monospace;
+}
+h1{
+	font-size: 3em;
+	font-weight: bold;
+}
+h2{
+	font-size: 1.5em;
+}
+
+/*NAVITGATION/LINKS*/
+header{
+	width: 62.5em;
+	margin: 0 auto;
+}
+header h2{
+	margin-bottom: 0.5em;
+}
+nav{
+	text-align: center;
+}
+nav ul{
+	width: 100%;
+	/*get rid of indenting*/
+	padding:0; margin:0;
+}
+nav li{
+	float: left;
+	width: 20%;
+}
+nav li a{
+	padding: 0.3em 0.7em;
+	text-decoration:none;
+	color: #666;
+	border-radius:1em;
+	-webkit-transition: background-color 0.25s, color 0.25s;
+		-moz-transition: background-color 0.25s, color 0.25s;
+			-ms-transition: background-color 0.25s, color 0.25s;
+				-o-transition: background-color 0.25s, color 0.25s;
+					-transition: background-color 0.25s, color 0.25s;
+}
+nav li a:hover{
+	color:#FFF;
+	border-radius:1em;
+	background-color: #791ea2;
+}
+
+
+/*about*/
+#about, #music{
+	margin: 0 auto;
+	width:62.5em;
+	margin-top: 2em;
+	text-align: left;
+}
+#about h2, #music h2{
+	text-decoration: underline;
+}
+#about p{
+	margin: 0.2em 0em;
+}
+/*music!!!*/
+.track{
+	width:60.5em;
+	padding: 1em;
+	margin: 1em auto;
+	border-radius: 1em;
+	background-color: rgba(121,30,162,0.5);
+}
+.track h3{
+	font-size: 1.25em;
+	font-weight: bold;
+}
+.track h4{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#music button{
+	background-color: rgba(121,30,162,0.5);
+	border-radius: 1em;
+	border-width: 0;
+	padding: 0.5em 1em;
+	-webkit-transition: background-color 0.25s, color 0.25s;
+		-moz-transition: background-color 0.25s, color 0.25s;
+			-ms-transition: background-color 0.25s, color 0.25s;
+				-o-transition: background-color 0.25s, color 0.25s;
+					-transition: background-color 0.25s, color 0.25s;
+}
+#music button:hover{
+	background-color: rgba(121,30,162,1);
+	color: #FFF;
+}
+
+/*useful classes*/
+.group:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+	width: 40.625em;
+}
+.strike{
+	text-decoration:line-through;
+}
