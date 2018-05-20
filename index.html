@@ -1,32 +1,165 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>drangob</title>
-	<link rel="stylesheet" type="text/css" href="./styles.css">
-	<script src="https://use.fontawesome.com/21cc83761a.js"></script>
-</head>
-<body>
-	<header role="banner" id="header" class="group">
-		<h1>drangob</h1>
-		<h2>[insert interesting tagline here]</h2>
-		<nav role="navigation">
-			<ul>
-				<li><a href="#">home/about <i class="fa fa-home"></i></a></li>
-				<li><a href="http://last.fm/user/drangob/"> music <i class="fa fa-music"></i></a></li>
-				<li><a href="https://www.twitter.com/drangob/">twitter <i class="fa fa-twitter"></i></a></li>
-				<li><a href="https://www.github.com/drangob/">github <i class="fa fa-github"></i></a></li>
-				<li><a href="http://steamcommunity.com/id/drangob/">steam <i class="fa fa-steam"></i></a></li>
-			</ul>
-		</nav>
-	</header>
-	<section id="about">
-		<h2>about</h2>
-		<p>Hi, im Dan Horbury <i>AKA drangob</i>.</p>
-		<p>I'm from the UK and I'm a Computer Science student at Royal Holloway.</p>
-		<p></p>
-		<br>
-		<p>This website is by no means expansive and is likely going to be updated very intermittently.</p>
-	</section>
+<title>Dan Horbury</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<link rel="icon" 
+      type="image/png" 
+      href="icon.png">
+
+<body class="light-grey">
+
+	<!-- Page Container -->
+	<div class="content margin-top" style="max-width:1400px;">
+
+		<!-- The Grid -->
+		<div class="row-padding">
+
+			<!-- Left Column -->
+			<aside>
+				<div id="avatar-container">
+					<img src="avatar.png" alt="Avatar">
+					<div class="text-white">
+						<h2>Dan Horbury</h2>
+					</div>
+				</div>
+				<div class="container">
+					<p><i class="fa fa-university fa-fw margin-right large text-teal"></i>Royal Holloway, University of London</p>
+					<p><i class="fa fa-home fa-fw margin-right large text-teal"></i>London, UK</p>
+					<p class="rest"><i class="fa fa-envelope fa-fw margin-right large text-teal"></i><a href="mailto:Daniel.Horbury.2015@rhul.ac.uk">Daniel.Horbury.2015@rhul.ac.uk</a></p>
+					<hr>
+
+					<p class="large"><b><i class="fa fa-asterisk fa-fw margin-right text-teal"></i>Interests</b></p>
+					<p>Compilers</p>
+					<p>Programming Language Design</p>
+					<p>Cryptography</p>
+					<p>Disassembly</p>
+					<hr>
+
+					<p class="large text-theme"><b><i class="fa fa-code fa-fw margin-right text-teal"></i>Languages</b></p>
+					<p>Java</p>
+					<p>C++/C</p>
+					<p>Python</p>
+					<br>
+
+					<p class="large text-theme"><b><i class="fa fa-random fa-fw margin-right text-teal"></i>Misc Links</b></p>
+					<p><a href="https://www.linkedin.com/in/dan-horbury-52912bb5/"><i class="fab fa-linkedin text-teal margin-right"></i>LinkedIn</a></p>
+					<p><a href="https://twitter.com/drangob"><i class="fab fa-twitter-square text-teal margin-right"></i>Twitter</a></p>
+					<p><a href="https://github.com/drangob"><i class="fab fa-github-square text-teal margin-right"></i>GitHub</a></p>
+					<br>
+				</div><br>
+				<!-- End Left Column -->
+			</aside>
+
+			<!-- Right Column -->
+			<main>
+				<section class="container">
+					<h2 class="text-grey padding-16"><i class="fa fa-graduation-cap fa-fw margin-right xxlarge text-teal"></i>Education</h2>
+					<div class="container">
+						<h5 class=""><b>Royal Holloway, University of London</b></h5>
+						<h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>2015 - 2019 <span class="tag teal round">Current</span></h6>
+						<p>MSci Computer Science</p>
+						<!-- <hr> -->
+						<div class="wrap-collabsible">
+							<input id="collapsible1" class="toggle" type="checkbox">
+							<label for="collapsible1" class="lbl-toggle">More Info</label>
+							<div class="collapsible-content">
+								<div class="content-inner">
+									<p>
+										Predicted grade: First class <br>
+										You can find my interim transcript <a href="./interim-transcript.pdf">here</a>.
+									</p>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+<!-- 					<div class="container">
+						<h5 class=""><b>The Henley College</b></h5>
+						<h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>2015 - 2019</h6>
+						<p>BTEC Extended Diploma in IT (Software Development)</p>
+					</div> -->
+				</section>
+
+
+				<section class="container">
+					<h2 class="text-grey padding-16"><i class="fa fa-folder fa-fw margin-right xxlarge text-teal"></i>Projects</h2>
+						<div class="container">
+						<h5><b>Industrial Level SAT-Solving, Theory and Applications</b></h5>
+						<h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Sep 2018 - May 2019 <span class="tag teal round">In Progress</span></h6>
+						<p>A Disassembler for Reverse Engineering Binary Executables. Supervisor: Dr Johannes Kinder.</p>
+						<hr>
+					</div>
+					<div class="container">
+						<h5><b>Industrial Level SAT-Solving, Theory and Applications</b></h5>
+						<h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Sep 2017 - May 2018</h6>
+						<p>Third year project of MSci Computer Science Degree. Supervisor: Dr Iddo Tzameret.</p>
+						<div class="wrap-collabsible">
+							<input id="collapsible2" class="toggle" type="checkbox">
+							<label for="collapsible2" class="lbl-toggle">More Info</label>
+							<div class="collapsible-content">
+								<div class="content-inner">
+									<p>
+										This report discusses SAT-Solving and its importance in Computer Science for verification of
+										logic, specifically by using the DPLL algorithm and CDCL heuristic. The report continues
+										by creating an implementation of the DPLL algorithm and CDCL heuristic in C++, and
+										discussing theory and examples of their use. The document then finishes with a systematic
+										comparison of the two approaches.
+										<br><br>
+										Grade: Pending.
+										<br><br>
+										Report document and code availible upon request.
+									</p>
+								</div>
+							</div>
+						</div>
+						<hr>
+					</div>
+					<div class="container">
+						<h5 class=""><b>A commercial alternative to QKD: filling USB sticks and hard disks with random bits</b></h5>
+						<h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Jun 2017 - Sep 2017</h6>
+						<p>Summer UROP (Undergraduate Research Opportunity) in Cryptography. Supervisor: Professor Kenny Paterson.</p>
+						<div class="wrap-collabsible">
+							<input id="collapsible3" class="toggle" type="checkbox">
+							<label for="collapsible3" class="lbl-toggle">More Info</label>
+							<div class="collapsible-content">
+								<div class="content-inner">
+									<p>
+										Completed research into good sources of randomness, specifically in a cryptographically secure
+										setting for generation of good key material. Created a software solution to use these good sources
+										of randomness to fill hard disks with key material. This key material was secured under a 
+										cryptographic scheme in order to preserve security in the case the disk is in the hands of an attacker.
+										An API was also created to allow these random bits to be consumed as keying material,
+										example uses of this API were in an extension to the <a href="https://www.wireguard.com">WireGuard</a>
+										protocol and a simple one time pad encryptor.
+										<br><br>
+										This project can be viewed on GitHub <a href="https://github.com/drangob/alternativetoqkd">here</a>.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+				</section>
+
+				<!-- End Right Column -->
+			</main>
+
+			<!-- End Grid -->
+		</div>
+
+		<!-- End Page Container -->
+	</div>
+
+	<footer class="container teal center margin-top">
+		<p><!-- &copy; Daniel Horbury 2018 --></p>
+	</footer>
+
 </body>
 </html>
