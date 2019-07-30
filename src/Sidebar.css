@@ -1,0 +1,14 @@
+aside {
+    display: block;
+    float: left;
+    width: 33.333%;
+    margin-bottom:16px;
+    margin-right:16px;
+    background-color:#FFF!important;
+    color:#757575!important;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.container {
+    padding:16px;
+}
