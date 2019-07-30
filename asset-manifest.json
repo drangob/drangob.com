@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "drangob.com/static/css/main.13afb1a1.chunk.css",
-    "main.js": "drangob.com/static/js/main.30f1b6c3.chunk.js",
-    "main.js.map": "drangob.com/static/js/main.30f1b6c3.chunk.js.map",
-    "runtime~main.js": "drangob.com/static/js/runtime~main.e48555cd.js",
-    "runtime~main.js.map": "drangob.com/static/js/runtime~main.e48555cd.js.map",
-    "static/js/2.312e973e.chunk.js": "drangob.com/static/js/2.312e973e.chunk.js",
-    "static/js/2.312e973e.chunk.js.map": "drangob.com/static/js/2.312e973e.chunk.js.map",
-    "index.html": "drangob.com/index.html",
-    "precache-manifest.a4a8f1e397863bbf0a742a72297d0300.js": "drangob.com/precache-manifest.a4a8f1e397863bbf0a742a72297d0300.js",
-    "service-worker.js": "drangob.com/service-worker.js",
-    "static/css/main.13afb1a1.chunk.css.map": "drangob.com/static/css/main.13afb1a1.chunk.css.map",
-    "static/media/logo.svg": "drangob.com/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.13afb1a1.chunk.css",
+    "main.js": "/static/js/main.f554af3c.chunk.js",
+    "main.js.map": "/static/js/main.f554af3c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.312e973e.chunk.js": "/static/js/2.312e973e.chunk.js",
+    "static/js/2.312e973e.chunk.js.map": "/static/js/2.312e973e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f64729b88cf27ab9e10913fd195a7555.js": "/precache-manifest.f64729b88cf27ab9e10913fd195a7555.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.13afb1a1.chunk.css.map": "/static/css/main.13afb1a1.chunk.css.map",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   }
 }
