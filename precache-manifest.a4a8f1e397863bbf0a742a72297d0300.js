@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ea044205ae1dc41b8ed3f77baa705fc",
+    "revision": "d926d4dcc9d050ee815b5b8fe79632f3",
     "url": "drangob.com/index.html"
   },
   {
-    "revision": "490727f4c2429c031cb2",
-    "url": "drangob.com/static/css/main.2cce8147.chunk.css"
+    "revision": "33173df3b00ca7ed4dc3",
+    "url": "drangob.com/static/css/main.13afb1a1.chunk.css"
   },
   {
-    "revision": "2e0129063922e3bb197a",
-    "url": "drangob.com/static/js/2.b41502e9.chunk.js"
+    "revision": "fb5c4c308fc030a857fc",
+    "url": "drangob.com/static/js/2.312e973e.chunk.js"
   },
   {
-    "revision": "490727f4c2429c031cb2",
-    "url": "drangob.com/static/js/main.f1eb19bd.chunk.js"
+    "revision": "33173df3b00ca7ed4dc3",
+    "url": "drangob.com/static/js/main.30f1b6c3.chunk.js"
   },
   {
     "revision": "5683348af812a12c8ead",
