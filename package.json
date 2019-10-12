@@ -4,10 +4,7 @@
   "homepage": "https://drangob.com",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.8",
-    "@fortawesome/fontawesome-svg-core": "^1.2.20",
-    "@fortawesome/free-solid-svg-icons": "^5.10.0",
-    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@iconify/react": "^1.1.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
