@@ -17,7 +17,7 @@ class MusicDisplay extends React.Component {
 
   async componentDidMount() {
     const getMusicDetails = async () => {
-      const response = await fetch("http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=drangob&api_key=90225bae78876a0c8dbfa35bf25e90b5&format=json");
+      const response = await fetch("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=drangob&api_key=90225bae78876a0c8dbfa35bf25e90b5&format=json");
       const jsonResponse = await response.json();
       const {artist, name, '@attr': attrib, image} = jsonResponse.recenttracks.track[0];
       if (attrib) {
@@ -44,14 +44,23 @@ class MusicDisplay extends React.Component {
   render() {
     return (
       <div>
-        {this.state.pending ? 
-          <span>LOADING...</span> :
-          this.state.nowPlaying ? 
-            <span>Now playing {this.state.songName} by {this.state.artist}</span>
-            :
-            <span>Not currently playing any music</span>
-        }
-        <div className="cover-art"><img height={256} width={256} src={ this.state.nowPlaying && this.state.imageUrl || NoCover} /></div>
+        <div className="playing-info">
+          {this.state.pending ? 
+            <span>LOADING...</span> :
+            this.state.nowPlaying ? 
+              <span>Now playing:<br/>{this.state.songName} by {this.state.artist}</span>
+              :
+              <span>Not currently playing any music</span>
+          }
+        </div>
+        <div className="cover-art">
+          <img
+            height={256}
+            width={256}
+            src={ (this.state.nowPlaying && this.state.imageUrl) || NoCover}
+            alt="Album artwork"
+          />
+        </div>
       </div>
     );
   }
